@@ -63,8 +63,8 @@
               </div>
               <div class="meta col-xs-12">
                 You can optionally export all deadlines to
-                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/conf-deadlines.ics">Google Calendar</a> or
-                <a href="/conf-deadlines.ics">.ics</a>.
+                <a href="https://calendar.google.com/calendar/r?cid={{ site.baseurl }}/conf-deadlines.ics">Google Calendar</a> or
+                <a href="conf-deadlines.ics">.ics</a>.
               </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-xs-5 col-sm-6">
-                    <a class="conf-title" href="/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
+                    <a class="conf-title" href="conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
                 </div>
                 <div class="col-xs-7 col-sm-6">
                   <span class="timer"></span>
@@ -148,7 +148,7 @@
       <footer>
         <div class="row">
           <div class="col-xs-12 col-sm-12">
-            <a href="/">{{ site.domain }}</a> was built and maintained from 2021 by SNL-LAB.<br>
+            <a href="{{ site.baseurl }}">{{ site.domain }}</a> was built and maintained from 2021 by SNL-LAB.<br>
           </div>
         </div>
       </footer>
