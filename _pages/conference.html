@@ -69,7 +69,7 @@ permalink:  /conference/
           <hr>
         </div>
         <footer>
-          <a href="/">{{ site.domain }}</a> was built and maintained from 2016-2021 by <a href="https://twitter.com/abhshkdz">abhshkdz</a>. It is now run by <a href="https://paperswithcode.com/">Papers With Code</a>.<br>
+          <a href="{{ site.baseurl }}">{{ site.domain }}</a> was built and maintained from 2021 by SNL lab.<br>
         </footer>
     </div>
     <script type="text/javascript" charset="utf-8">
@@ -103,7 +103,7 @@ permalink:  /conference/
         {% for conf in site.data.conferences %}
             if (conf == "{{ conf.id }}") {
               $('#conf-title-href').text("{{conf.title}} {{conf.year}}");
-              $('#conf-title-href').attr('href', "/conference?id={{conf.id}}");
+              $('#conf-title-href').attr('href', "conference?id={{conf.id}}");
               $('#conf-date').text("{{conf.date}}");
               $('#conf-place').text("{{conf.place}}");
               $('#conf-website').text("{{conf.link}}");
