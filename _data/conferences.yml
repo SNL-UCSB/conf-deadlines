@@ -88,3 +88,289 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2021. More info
     <a href=''https://iclr.cc/Conferences/2022/CallForPapers''>here</a>.'
+
+- title: USENIX NSDI Spring
+  hindex: 00
+  year: 2021
+  id: nsdispring2021
+  link: https://www.usenix.org/conference/nsdi21/call-for-papers
+  abstract_deadline: '2020-04-10 23:59:00'
+  deadline: '2020-04-17 23:59:00'
+  timezone: UTC-4
+  date: April 12-14, 2021
+  place: Virtual
+  sub: NET
+
+- title: USENIX NSDI Fall
+  hindex: 00
+  year: 2022
+  id: nsdifall2022
+  link: https://www.usenix.org/conference/nsdi22/call-for-papers
+  abstract_deadline: '2021-09-09 20:59:00'
+  deadline: '2021-09-15 20:59:00'
+  timezone: UTC-7
+  date: April 4-6, 2022
+  place: Renton, WA, USA
+  sub: NET
+
+- title: CoNEXT
+  hindex: 00
+  year: 2021
+  id: conext2021
+  link: https://conferences2.sigcomm.org/co-next/2021/#!/cfp
+  abstract_deadline: '2021-06-21 23:59:00'
+  deadline: '2021-06-28 23:59:00'
+  timezone: UTC-2
+  date: December 6-10, 2021
+  place: Munich, Germany (Virtual)
+  sub: NET
+
+- title: HotNets
+  hindex: 00
+  year: 2021
+  id: hotnets2021
+  link: https://conferences.sigcomm.org/hotnets/2021/cfp.html
+  abstract_deadline: '2021-06-18 18:00:00'
+  deadline: '2021-06-25 18:00:00'
+  timezone: UTC-4
+  date: November 10-12, 2021
+  place: Online
+  sub: NET
+
+- title: ACM SOSR
+  hindex: 00
+  year: 2021
+  id: sosr2021
+  link: https://conferences.sigcomm.org/sosr/2021/calls.html
+  deadline: '2021-06-11 00:00:00'
+  timezone: UTC-12
+  date: September 20-21, 2021
+  place: Virtual
+  sub: NET
+
+- title: USENIX SECURITY Summer
+  hindex: 00
+  year: 2022
+  id: usenixsecsummer2022
+  link: https://www.usenix.org/conference/usenixsecurity22/call-for-papers
+  deadline: '2021-06-08 23:59:00'
+  timezone: UTC-12
+  date: August 10–12, 2022
+  place: Boston, MA, USA
+  sub: NS
+
+- title: USENIX SECURITY Fall
+  hindex: 00
+  year: 2022
+  id: usenixsecfall2022
+  link: https://www.usenix.org/conference/usenixsecurity22/call-for-papers
+  deadline: '2021-10-12 23:59:00'
+  timezone: UTC-12
+  date: August 10–12, 2022
+  place: Boston, MA, USA
+  sub: NS
+
+- title: USENIX SECURITY Winter
+  hindex: 00
+  year: 2022
+  id: usenixsecwinter2022
+  link: https://www.usenix.org/conference/usenixsecurity22/call-for-papers
+  deadline: '2022-02-01 23:59:00'
+  timezone: UTC-12
+  date: August 10–12, 2022
+  place: Boston, MA, USA
+  sub: NS
+
+- title: USENIX ATC
+  hindex: 00
+  year: 2022
+  id: atc2022
+  link: https://www.usenix.org/conference/atc22/call-for-papers
+  abstract_deadline: '2022-01-6 23:59:00'
+  deadline: '2022-01-13 23:59:00'
+  timezone: UTC
+  date: July 11–13, 2022
+  place: Carlsbad, CA, USA
+  sub: NET
+
+- title: ACM SIGCOMM
+  hindex: 00
+  year: 2022
+  id: sigcomm2022
+  link: https://conferences.sigcomm.org/sigcomm/2022/cfp.html
+  abstract_deadline: '2022-01-26 23:59:00'
+  deadline: '2022-02-02 23:59:00'
+  timezone: UTC
+  date: August 22-26, 2022
+  place: Amsterdam, Netherlands
+  sub: NET
+
+- title: ACM CCS First
+  hindex: 00
+  year: 2022
+  id: ccsfirst2022
+  link: https://www.sigsac.org/ccs/CCS2022/call-for-papers.html
+  deadline: '2022-01-14 23:59:00'
+  timezone: UTC-12
+  date: November 7-11, 2022
+  place: Los Angeles, USA
+  sub: NS
+
+- title: ACM CCS Second
+  hindex: 00
+  year: 2022
+  id: ccssecond2022
+  link: https://www.sigsac.org/ccs/CCS2022/call-for-papers.html
+  deadline: '2022-05-02 23:59:00'
+  timezone: UTC-12
+  date: November 7-11, 2022
+  place: Los Angeles, USA
+  sub: NS
+
+- title: ACM WiSec
+  hindex: 00
+  year: 2022
+  id: wisec2022
+  link: https://wisec2022.cs.utsa.edu/call-for-papers/
+  deadline: '2022-02-02 23:59:00'
+  timezone: UTC-12
+  date: May 16-19, 2022
+  place: San Antonio, Texas, USA
+  sub: NS
+
+- title: ACM WiSeML
+  hindex: 00
+  year: 2022
+  id: wiseml2022
+  link: https://wisec2022.cs.utsa.edu/wiseml2022/
+  deadline: '2022-02-15 23:59:00'
+  timezone: UTC-12
+  date: May 19, 2022
+  place: San Antonio, Texas, USA
+  sub: ML
+
+- title: ACM SOSP
+  hindex: 00
+  year: 2021
+  id: sosp2021
+  link: https://sosp2021.mpi-sws.org/cfp.html
+  abstract_deadline: '2021-04-30 14:59:00'
+  deadline: '2021-05-07 14:59:00'
+  timezone: UTC-8
+  date: October 26-29, 2021
+  place: Virtual
+  sub: OS
+
+- title: ACM SIGMETRICS Winter
+  hindex: 00
+  year: 2022
+  id: sigmetricswinter2022
+  link: https://www.sigmetrics.org/sigmetrics2022/call_for_papers.html
+  abstract_deadline: '2022-01-26 11:59:00'
+  deadline: '2022-02-02 11:59:00'
+  timezone: UTC-5
+  date: June 6-10, 2022
+  place: Virtual + Mumbai, India
+  sub: NET
+
+- title: ACM SIGMETRICS Summer
+  hindex: 00
+  year: 2022
+  id: sigmetricssummer2022
+  link: https://www.sigmetrics.org/sigmetrics2022/call_for_papers.html
+  abstract_deadline: '2021-08-04 11:59:00'
+  deadline: '2021-08-11 11:59:00'
+  timezone: UTC-5
+  date: June 6-10, 2022
+  place: Virtual + Mumbai, India
+  sub: NET
+
+- title: ACM SIGMETRICS Fall
+  hindex: 00
+  year: 2022
+  id: sigmetricsfall2022
+  link: https://www.sigmetrics.org/sigmetrics2022/call_for_papers.html
+  abstract_deadline: '2021-10-13 11:59:00'
+  deadline: '2021-10-20 11:59:00'
+  timezone: UTC-5
+  date: June 6-10, 2022
+  place: Virtual + Mumbai, India
+  sub: NET
+
+- title: USENIX OSDI
+  hindex: 00
+  year: 2022
+  id: osdi2022
+  link: https://www.usenix.org/conference/osdi22/call-for-papers
+  abstract_deadline: '2021-12-07 14:59:00'
+  deadline: '2021-12-14 14:59:00'
+  timezone: UTC-8
+  date: July 11-13, 2022
+  place: Carlsbad, California
+  sub: OS
+
+- title: MLSys
+  hindex: 00
+  year: 2022
+  id: mlsys2022
+  link: https://mlsys.org/Conferences/2022/CallForPapers
+  deadline: '2021-10-15 20:00:00'
+  timezone: UTC+0
+  date: August 29-September 1, 2022
+  place: Santa Clara, California
+  sub: ML
+
+- title: MLSys Workshops
+  hindex: 00
+  year: 2022
+  id: mlsysworkshops2022
+  link: https://mlsys.org/Conferences/2022/CallForWorkshops
+  deadline: '2022-04-18 17:00:00'
+  timezone: UTC-8
+  date: August 29-September 1, 2022
+  place: Santa Clara, California
+  sub: ML
+
+- title: ICLR PAIR2Struct Workshop
+  hindex: 00
+  year: 2022
+  id: pair2struct2022
+  link: https://pair2struct-workshop.github.io/
+  deadline: '2022-02-26 12:00:00'
+  timezone: UTC+0
+  date: April 29, 2022
+  place: Virtual
+  sub: ML
+
+- title: IEEE S&P - First Deadline
+  hindex: 00
+  year: 2023
+  id: spfirst2023
+  link: https://www.ieee-security.org/TC/SP2023/cfpapers.html
+  deadline: '2022-04-01 23:59:59'
+  timezone: UTC-12
+  date: May 22-26, 2023
+  place: San Francisco, California
+  sub: NS
+
+- title: IEEE S&P - Second Deadline
+  hindex: 00
+  year: 2023
+  id: spsecond2023
+  link: https://www.ieee-security.org/TC/SP2023/cfpapers.html
+  deadline: '2022-08-19 23:59:59'
+  timezone: UTC-12
+  date: May 22-26, 2023
+  place: San Francisco, California
+  sub: NS
+
+- title: IEEE S&P- Third Deadline
+  hindex: 00
+  year: 2023
+  id: spthird2023
+  link: https://www.ieee-security.org/TC/SP2023/cfpapers.html
+  deadline: '2022-12-08 23:59:59'
+  timezone: UTC-12
+  date: May 22-26, 2023
+  place: San Francisco, California
+  sub: NS
