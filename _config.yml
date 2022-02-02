@@ -2,8 +2,8 @@ title: Conference Deadlines
 description: Countdowns to conference deadlines that are interesting for SNL lab
 author: SNL
 
-domain: "to-do"
-baseurl: ""
+domain: "https://snl-ucsb.github.io/conf-deadlines/"
+baseurl: "https://snl-ucsb.github.io/conf-deadlines/"
 
 github_username: SNL-UCSB
 github_repo: conf-deadlines
