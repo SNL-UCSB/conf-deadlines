@@ -2,8 +2,6 @@
 
 Countdown timers to keep track of a bunch of conference deadlines.
 
-https://github.com/SNL-UCSB/conf-deadlines
-
 ## Contributing
 
 Feel free to add any conference deadline you think is important for the lab.
