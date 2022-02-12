@@ -1,6 +1,7 @@
 ## UCSB SNL Conference Deadlines 
 
 Countdown timers to keep track of a bunch of conference deadlines.
+https://snl-ucsb.github.io/conf-deadlines
 
 ## Contributing
 
