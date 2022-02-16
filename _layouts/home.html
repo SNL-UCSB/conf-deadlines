@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-xs-7 col-sm-6">
                   {% if conf.abstract_deadline %}
-                  <br><span class="abstimer"></span>
+                  <span class="abstimer"></span><br>
                   {% endif %}
                   <span class="timer"></span>
                 </div>
@@ -211,9 +211,10 @@
           var confDate = moment.tz("{{conf.deadline}}", timezone);
 
           // render countdown timer
-          var prefix = "";
           {% if conf.abstract_deadline %}
-          var prefix = "Paper: ";
+          const prefix = "Paper: ";
+          {% else %}
+          const prefix = "";
           {% endif %}
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
             $(this).html(prefix + event.strftime('%D days %Hh %Mm %Ss'));
