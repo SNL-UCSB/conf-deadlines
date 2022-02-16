@@ -125,6 +125,11 @@ footer {
   font-weight: 400;
 }
 
+.abstimer {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 #conf-timer {
   font-size: 72px;
   color: #444;

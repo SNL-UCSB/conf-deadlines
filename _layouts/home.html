@@ -77,6 +77,9 @@
                     <a class="conf-title" href="conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
                 </div>
                 <div class="col-xs-7 col-sm-6">
+                  {% if conf.abstract_timer %}
+                  <span class="abstimer"></span>
+                  {% endif %}
                   <span class="timer"></span>
                 </div>
             </div>
@@ -92,9 +95,9 @@
                     {% endif %}
                   </span>
                 </div>
-                {% if conf.note or conf.abstract_deadline %}
+                {% if conf.note %}
                 <div class="note">
-                  {% if conf.note %}{{conf.note}}{% endif %}{% if conf.abstract_deadline %} Abstract deadline: {{conf.abstract_deadline}}{% endif %}
+                  {{conf.note}}
                 </div>
                 {% endif %}
                 {% if conf.pwclink or conf.paperslink %}
@@ -211,6 +214,14 @@
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
+
+          {% if conf.abstract_deadline %}
+            //render abstract deadline timer
+            var absDate = moment.tz("{{conf.abstract_deadline}}", timezone);
+            $('#{{conf.id}} .abstimer').countdown(absDate.toDate(), function(event) {
+              $(this).html("Abstract: " + event.strftime('%D days %Hh %Mm %Ss'));
+            });
+          {% endif %}
 
           // convert deadline to local timezone
           try {
