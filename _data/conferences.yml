@@ -4,11 +4,11 @@
   year: 2022
   id: neurips22
   link: https://neurips.cc/Conferences/2022/
-  deadline: '2022-05-28 20:00:00'
-  abstract_deadline: '2022-05-21 20:00:00'
-  timezone: UTC+0
-  date: December 6-14, 2022
-  place: Online
+  deadline: '2022-05-19 13:00:00'
+  abstract_deadline: '2022-05-16 13:00:00'
+  timezone: UTC-7
+  date: December 1-9, 2022
+  place: ???
   sub: ML
   pwclink: https://paperswithcode.com/conference/neurips-2022-12
   paperslink: https://proceedings.neurips.cc/paper/2022
