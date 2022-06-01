@@ -13,6 +13,17 @@
   pwclink: https://paperswithcode.com/conference/neurips-2022-12
   paperslink: https://proceedings.neurips.cc/paper/2022
 
+- title: CoNEXT 2022
+  hindex: 00
+  year: 2022
+  id: conext22
+  link: https://conferences2.sigcomm.org/co-next/2022/#!/home
+  deadline: '2022-06-29 23:59:00'
+  timezone: UTC+02
+  date: December 6-9, 2022
+  place: Rome, Italy
+  sub: NET
+
 - title: ACM Internet Measurement Conference 2022
   hindex: 00
   year: 2022
@@ -54,11 +65,11 @@
   hindex: 00
   year: 2022
   id: hotnets2022
-  link: 
-  abstract_deadline: '2022-06-18 18:00:00'
-  deadline: '2022-06-25 18:00:00'
+  link: https://conferences.sigcomm.org/hotnets/2022/index.html
+  abstract_deadline: '2022-06-16 18:00:00'
+  deadline: '2022-06-23 18:00:00'
   timezone: UTC-4
-  date: November 10-12, 2022
+  date: November 14-15, 2022
   place: Online
   sub: NET
 
@@ -67,8 +78,9 @@
   year: 2022
   id: sosr2022
   link: https://conferences.sigcomm.org/sosr/2021/calls.html
-  deadline: '2022-06-11 00:00:00'
-  timezone: UTC-12
+  abstract_deadline: '2022-06-15 18:00:00'
+  deadline: '2022-06-22 00:00:00'
+  timezone: UTC+12
   date: September 20-21, 2022
   place: Virtual
   sub: NET
